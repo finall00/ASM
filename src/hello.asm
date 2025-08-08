@@ -21,5 +21,3 @@ _start:
   mov rdi, EXIT_SUCCESS
   mov rax, SYS_exit
   syscall
-  
-   
