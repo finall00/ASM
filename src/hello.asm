@@ -5,6 +5,7 @@ global _start
 %define STDOUT 1
 %define EXIT_SUCCESS 0
 
+
 section .data
 msg: db "Hello, world!", 0xA
 msgLen: equ $ - msg
