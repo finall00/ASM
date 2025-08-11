@@ -58,4 +58,8 @@ com o `.o` vamos linka-lo e tranformar "magicamente" em um executavel
   ld target/$1.o -o target/$1
 ```
 
+## TODO
+
+- [ ] Criar script para linkar libc
+- [ ] usar gcc pra linkar
 

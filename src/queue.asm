@@ -62,6 +62,7 @@ _start:
 
 .error:
     mov rdi, EXIT_ERROR
+    
 
 .exit:
     mov rax, SYS_exit

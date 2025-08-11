@@ -1,7 +1,7 @@
-%define SYS_exit 60
+%define SYS_exit 60 ; Codigo da syscall de Exit
 
 section .data
-  msg : db "hello world libc!! %.2f", 10, 0
+  msg : db "hello world libc!! %.2f", 10, 0  ; 
   num : dq 3.14169 
 
 section .text
